@@ -11,15 +11,15 @@ var PORT = 3000;
 // Routes
 // =============================================================
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "index.html"));
+    res.sendFile(path.join(__dirname, "./assets/index.html"));
 });
   
 app.get("/portfolio", function(req, res) {
-    res.sendFile(path.join(__dirname, "portfolio.html"));
+    res.sendFile(path.join(__dirname, "Assets/porfolio.html"));
 });
 
 app.get("/contact", function(req, res) {
-    res.sendFile(path.join(__dirname, "contact.html"));
+    res.sendFile(path.join(__dirname, "Assets/contact.html"));
 });
 
 // Starts the server

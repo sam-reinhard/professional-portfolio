@@ -1,9 +1,9 @@
 .col-md-3 {
-    background-color: black;
+    background-color: rgb(175, 175, 175);
 }
 
 .inner {
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {

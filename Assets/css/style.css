@@ -1,15 +1,77 @@
-.col-md-3 {
-    background-color: rgb(175, 175, 175);
-}
-
-.inner {
-    padding: 10px 0px;
+/* Universal Elements */
+nav {
+    height: 80px;
 }
 
 footer {
     color: white;
-    background-color: grey;
+    background-color: black;
     text-align: center;
+    height: 80px;
+}
+
+/* Portfolio Page */
+.container {
+    background-color: gainsboro;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.inner {
+    padding: 10px 0px;
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.foi-app {
+    background: url(../Images/FOIApp.jpg);
+}
+
+.straytx {
+    background: url(../Images/straytx_200x200.jpg);
+}
+
+.skyq {
+    background: url(../Images/skyq_200x200.jpeg);
+}
+
+.react-game {
+    background: url(../Images/react_200x200.png);
+}
+
+.e-commerce {
+    background: url(../Images/E-commerce_200x200.jpg);
+}
+
+.friend-finder {
+    background: url(../Images/friends_200x200.jpg);
+}
+
+.liri {
+    background: url(../Images/liri_200x200.jpeg);
+}
+
+.restaurant {
+    background: url(../Images/restaurant_200x200.jpeg);
+}
+
+.giftastic {
+    background: url(../images/hockey_200x200.jpeg);
+}
+
+.crystal {
+    background: url(../images/crystal_200x200.jpeg)
+}
+
+.trivia {
+    background: url(../Images/nationalpark_200x200.jpeg);
+}
+
+.psychic {
+    background: url(../images/psychic_200x200.jpeg)
 }
 
 h3 {
@@ -21,6 +83,13 @@ img {
     width: 200px;
 }
 
-nav {
-    height: 80px;
+.portfolio-images {
+    position: relative;
 }
+
+.project-title {
+
+}
+
+.portfolio-images:hover {}
+

@@ -38,12 +38,12 @@ footer {
 .project-content {
     height: 200px; 
     width: 200px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
     visibility: hidden;
 }
 
 .project-tags {
-    padding-top: 40px;
+    padding: 30px 10px 0px 10px;
 }
 
 /* Project Backgrounds */

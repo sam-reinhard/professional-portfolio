@@ -3,7 +3,7 @@
 }
 
 .inner {
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 footer {
@@ -14,4 +14,13 @@ footer {
 
 h3 {
     color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+nav {
+    height: 80px;
 }

@@ -1,21 +1,25 @@
-/* Universal Elements */
+                                    /* Universal Elements */
+
 nav {
-    height: 80px;
+    height: 60px;
 }
 
 footer {
     color: white;
     background-color: black;
     text-align: center;
-    height: 80px;
+    height: 60px;
 }
 
-/* Portfolio Page */
 .container {
     background-color: gainsboro;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 10px 0px;
 }
+
+                                    /* Portfolio Page */
+
 .inner {
     padding: 10px 0px;
 }
@@ -24,8 +28,21 @@ footer {
     height: 200px;
     width: 200px;
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
+.project-title {
+    padding: 30px 10px 0px 10px;
+}
+
+.project-content {
+    height: 200px; 
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    visibility: hidden;
+}
+
+/* Project Backgrounds */
 .foi-app {
     background: url(../Images/FOIApp.jpg);
 }
@@ -74,22 +91,13 @@ footer {
     background: url(../images/psychic_200x200.jpeg)
 }
 
-h3 {
-    color: white;
+/* Project Hover Effects */
+
+
+
+.project:hover .project-content{
+    visibility: visible;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-}
 
-.portfolio-images {
-    position: relative;
-}
-
-.project-title {
-
-}
-
-.portfolio-images:hover {}
 

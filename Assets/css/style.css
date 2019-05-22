@@ -2,6 +2,15 @@
 
 nav {
     height: 60px;
+    background-color: black;
+}
+
+.navbar-brand, .nav-link {
+    color: white;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: rgb(165, 165, 165);
 }
 
 footer {

@@ -24,6 +24,18 @@ footer {
 }
 /*------------------------------------- Landing Page  */
 
+.container-landing {
+    scroll-behavior: smooth;
+}
+
+.inner-landing {
+    padding: 258px 0px;
+}
+
+.inner-about {
+    padding: 70px 0px;
+}
+
 
 /*------------------------------------- Portfolio Page */
 

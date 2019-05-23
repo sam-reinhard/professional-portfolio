@@ -536,9 +536,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">Restaurant Tracker</h2>
+                <p class="app-links"><a href="https://pure-brushlands-35393.herokuapp.com/" target="_blank">Deployed Application</a> | <a href="https://github.com/sam-reinhard/Restaurant-app" target="_blank">GitHub Repository</a></p>
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>deployed link | repo link</p>
+                    <div class="col-md-3">
                         <p>Technology</p>
                         <ul>
                             <li>Node.js</li>
@@ -546,39 +546,51 @@
                             <li>Express</li>
                             <li>Handlebars</li>
                             <li>MVC Model</li>
+                            <li>AJAX</li>
                         </ul>
                     </div>
         
-                    <div class="col-md-8 modal-summary">
+                    <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The Restaurant Tracker is a full-stack application that allows 
+                            a user to input and save a list of restaurants that they'd like 
+                            to try. Once they've been to the restaurant, the user can check 
+                            the restaurant off of their list, which renders the restaurant to 
+                            the "Tried" section.
                         </p>
                         
                         <div class="text-center">
                             <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
                         </div>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The application works by first querying the database to see which 
+                            restaurants are already stored under the restaurants to try section 
+                            as well as the tried section and rendering those to the page. When 
+                            the user clicks the "Add Restaurant" button, an on-click event runs 
+                            a post request via AJAX that adds the restaurant to the database and 
+                            then reloads the page.
+                        </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>When the user clicks on the "Tried It" button that renders next to each 
+                            restauarant in the "Restaurants to Try" section, an on-click event runs a 
+                            put request via AJAX that updates the database to reflect that the restaurant 
+                            has been tried, and the page reloads.
+                        </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>As an application that follows the MVC design pattern, all of the routing is 
+                            handled within the application itself. When an AJAX request is run from an 
+                            on-click function, the request is routed to the controller first, where 
+                            database queries that are defined in the models folder and subsequently in 
+                            the ORM are stored. After the page is reloaded, any updates that were made to 
+                            the database via this route are reflected dynamically.
                         </p>
                     </div>
                 </div>

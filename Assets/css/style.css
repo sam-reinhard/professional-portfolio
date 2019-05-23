@@ -171,11 +171,16 @@ footer {
 
   .modal-title {
       text-align: center;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
   }
 
   .modal-summary {
       border-left: 1px solid grey;
+  }
+
+  .app-links {
+      text-align: center;
+      padding-bottom: 20px;
   }
 
 /*-------------------------------------  Contact Page */

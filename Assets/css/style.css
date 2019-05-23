@@ -1,11 +1,5 @@
 /*-------------------------------------  Universal Elements */
 
-/* Nav Bar */
-
-nav {
-    height: 60px;
-}
-
 /* Container */
 
 .container {
@@ -169,6 +163,7 @@ footer {
     cursor: pointer;
   }
 
+  /* Modal Elements */
   .modal-title {
       text-align: center;
       padding-bottom: 10px;
@@ -181,6 +176,21 @@ footer {
   .app-links {
       text-align: center;
       padding-bottom: 20px;
+      border-bottom: 1px solid grey;
+  }
+
+  .modal-image {
+    padding: 20px;
+  }
+
+  .modal h4 {
+      padding-top: 20px;
+      text-align: center;
+  }
+
+  .modal p {
+      padding: 20px;
+      margin: 0;
   }
 
 /*-------------------------------------  Contact Page */

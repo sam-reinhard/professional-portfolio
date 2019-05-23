@@ -563,7 +563,11 @@
                             ac condimentum mauris. Phasellus eget fermentum ex, eu 
                             convallis nibh.
                         </p>
-                        <img src="https://via.placeholder.com/300">
+                        
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Duis at interdum mi, vel consequat diam. Quisque sagittis 
                             varius feugiat. Mauris imperdiet dui in ante posuere 
@@ -586,9 +590,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">NHL GIF Machine</h2>
+                <p class="app-links"><a href="https://sam-reinhard.github.io/Homework-GifTastic/" target="_blank">Deployed Application</a> | <a href="https://github.com/sam-reinhard/Homework-GifTastic" target="_blank">GitHub Repository</a></p>
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>deployed link | repo link</p>
+                    <div class="col-md-3">
                         <p>Technology</p>
                         <ul>
                             <li>jQuery</li>
@@ -597,33 +601,50 @@
                         </ul>
                     </div>
         
-                    <div class="col-md-8 modal-summary">
+                    <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The NHL GIF Machine is an application that allows the 
+                            user to search GIPHY's collection of GIFs via an AJAX 
+                            request to the GIPHY API. The page contains several pre-built 
+                            buttons that the user can click to query the collection and 
+                            bring back ten GIFs that match the term on the button. The page 
+                            also has an input form that allows the user to create their own 
+                            buttons and searches.
                         </p>
-                        <img src="https://via.placeholder.com/300">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>The application works by using a pre-built array of strings and 
+                            using a for-loop to iterate over the array and dynamically generate 
+                            the buttons on the page. Every time a new term is entered into the 
+                            input bar, the string is trimmed and added to the array, which causes 
+                            the existing buttons to clear and re-render with the new string as a 
+                            button.
                         </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>When the user clicks on one of the buttons, an AJAX request containing 
+                            the string on the button is made to the GIPHY API. Upon receiving the 
+                            ten objects contained in the response, the application creates one GIF 
+                            per object and renders it to the page along with the GIFs rating. 
+                            Additionally, the GIF's static image source and animated image source 
+                            are both saved as attributes of their respective GIF. However, when the 
+                            GIFs are initially rendered to the page, the static image is used as the 
+                            source instead of the animated one to speed up the loading time for all 
+                            the GIFs. When the user clicks on a GIF, an on-click function runs that 
+                            swaps out the static image source attribute with the animated image source 
+                            and the GIF begins playing. To stop the GIF, a user simply clicks it again 
+                            and the static source and animated source are switched.
+                        </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -654,11 +675,22 @@
                             and the game starts over. If the user goes over the target, 
                             a loss is added and the game resets.
                         </p>
-                        <img src="https://via.placeholder.com/300">
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
                         <p>The game works by generating five random numbers at the 
                             start - one for each crystal, and one for the target score. 
                             Each crystal image has an on-click function attached that 
-                            adds the value assigned to the crystal to the user's score.
+                            adds the value assigned to the crystal to the user's score 
+                            and checks to see if the user has equaled or exceeded their 
+                            target score. If they haven't, the game keeps moving and the 
+                            user continues to try and hit the score. If the user has equaled 
+                            the target score, a win is added in the wins section and the game 
+                            resets and picks new numerical values. If they exceed the target 
+                            score, a loss is added in the losses section and the game starts 
+                            again.
                         </p>
                     </div>
                 </div>
@@ -687,7 +719,11 @@
                             based off of how the user did. Give it a try and test your 
                             knowledge!
                         </p>
-                        <img src="https://via.placeholder.com/300">
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
                         <h4>How It Works</h4>
                         <p>The quiz itself is an array that contains an object for each 
                             question. Within those objects, a string acts as the question 
@@ -701,7 +737,10 @@
                             messages reflecting how the user did as well as display their 
                             total.
                         </p>
-                        <img src="https://via.placeholder.com/300">
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -732,8 +771,11 @@
                                 and the game resets. If they fail to guess the correct 
                                 letter, a loss is added to their score.
                             </p>
-                            <img src="https://via.placeholder.com/300">
-                            <h4>How It Works</h4>
+
+                            <div class="text-center">
+                                <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                            </div>
+
                             <p>The game works by having the computer choose a letter 
                                 from an array using Math.random() and saving that letter 
                                 to a variable. Then, the computer listens for a keystroke 

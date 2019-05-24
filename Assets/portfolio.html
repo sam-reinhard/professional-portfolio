@@ -488,9 +488,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">LIRI Node App</h2>
+                <p class="app-links"><a href="https://github.com/sam-reinhard/liri-node-app" target="_blank">GitHub Repository</a></p>
                 <div class="row">
                     <div class="col-md-3">
-                        <p>deployed link | repo link</p>
                         <p>Technology</p>
                         <ul>
                             <li>Node.js</li>
@@ -501,31 +501,29 @@
         
                     <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The LIRI Node App is an application that a user can run in their 
+                            command line to search Spotify's API for songs, BandsInTown's API 
+                            for upcoming concerts, and OMDB's API for movies. Additonally, the 
+                            user can run a "do-what-it-says" command that reads a text file to 
+                            see the command and query stored and subsequently run it through one 
+                            of the aforementioned API's.
                         </p>
-                        <img src="https://via.placeholder.com/300">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>When a user types a phrase into the command line ["spotify-this-song", 
+                            "concert-this", "movie-this"] [query], the application captures the 
+                            command and uses Axios to request data back from the corresponding API 
+                            based on the query that was entered. Once the app gets the data back, it 
+                            selects a couple of pieces of key information and displays it in an 
+                            easy-to read format.
                         </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
                     </div>
                 </div>
             </div>

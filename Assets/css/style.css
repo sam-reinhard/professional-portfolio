@@ -39,6 +39,10 @@ footer {
     padding: 70px 0px;
 }
 
+.inner-about p {
+
+}
+
 
 /*------------------------------------- Portfolio Page */
 
@@ -172,12 +176,6 @@ footer {
       border-left: 1px solid grey;
   }
 
-  .app-links {
-      text-align: center;
-      padding-bottom: 20px;
-      border-bottom: 1px solid grey;
-  }
-
   .modal-image {
     padding: 20px;
   }
@@ -187,11 +185,17 @@ footer {
       text-align: center;
   }
 
-  .modal p {
+  .modal-summary p {
       padding: 20px;
       margin: 0;
   }
 
+.app-links {
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      border-bottom: 1px solid grey;
+  }
 /*-------------------------------------  Contact Page */
 
 .inner-contact {

@@ -348,8 +348,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">React Memory Game</h2>
+                <p class="app-links"><a href="https://sam-reinhard.github.io/react-memory-game" target="_blank">Deployed Application</a> | <a href="https://github.com/sam-reinhard/react-memory-game" target="_blank">GitHub Repository</a></p>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p>deployed link | repo link</p>
                         <p>Technology</p>
                         <ul>
@@ -358,31 +359,38 @@
                         </ul>
                     </div>
         
-                    <div class="col-md-8 modal-summary">
+                    <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>This application is a simple memory game that was built 
+                            using React.js. To win, the user must click on all 12 
+                            the flags without clicking on any single flag more than 
+                            once. It's trickier than it sounds - after every click, 
+                            the flags shuffle their positions! The app also keeps 
+                            score for the user and displays a message based on the 
+                            user's last guess.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>The game works by first mapping over a JSON file and rendering 
+                            the flags to the browser. Each flag listens for clicks, which 
+                            pass its ID into an array that contains the user's previous 
+                            guesses. Then, a function runs that checks to see if that ID 
+                            is already being stored in the array. If it is, the user loses 
+                            and the game restarts.
+                        </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+                            
+                        <p>If it isn't, a point is added to the user's score and a message 
+                            confirms that the guess was correct. Then, a function runs that 
+                            shuffles the position of the flags on the screen, and the user 
+                            tries to guess again. Once the user guesses array is 12 ID's 
+                            long, the game resets and the user is congratulated on winning.
                         </p>
                     </div>
                 </div>

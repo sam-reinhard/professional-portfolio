@@ -441,9 +441,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">FriendFinder</h2>
+                <p class="app-links"><a href="https://sjr-friendfinder.herokuapp.com/" target="_blank">Deployed Application</a> | <a href="https://github.com/sam-reinhard/FriendFinder" target="_blank">GitHub Repository</a></p>
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>deployed link | repo link</p>
+                    <div class="col-md-3">
                         <p>Technology</p>
                         <ul>
                             <li>Node.js</li>
@@ -452,32 +452,33 @@
                         </ul>
                     </div>
         
-                    <div class="col-md-8 modal-summary">
+                    <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The FriendFinder Application is a simple application that contains a quiz 
+                            that the user takes to see who their new best friend should be. Once completed, 
+                            the application reveals the user's new best friend and saves the user's answers 
+                            as a JSON object to be later compared to other users' scores. 
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>The application works by capturing all of the user's answers 
+                            as an object first, and then sending them via a post request 
+                            to an API route that allows the application to begin comparing 
+                            the answer's to the answers already stored in the app. To find 
+                            the closest friend, a for-loop that is nested within another 
+                            for-loop is used to iterate through each of the user's answers 
+                            vs. each of the existing friends' answers and find the difference 
+                            between them. Finally, the application selects the friend with 
+                            the least variance and sends that information to the front end,
+                            where it is displayed to the user.
                         </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
                     </div>
                 </div>
             </div>

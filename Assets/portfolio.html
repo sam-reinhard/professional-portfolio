@@ -201,9 +201,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 class="modal-title">Freedom of Information App</h2>
+                <p class="app-links"><a href="https://enigmatic-earth-75040.herokuapp.com/" target="_blank">Deployed Application</a> | <a href="https://github.com/sam-reinhard/project3" target="_blank">GitHub Repository</a></p>
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>deployed link | repo link</p>
+                    <div class="col-md-3">
                         <p>Technology</p>
                         <ul>
                             <li>React.js</li>
@@ -216,32 +216,50 @@
                         </ul>
                     </div>
         
-                    <div class="col-md-8 modal-summary">
+                    <div class="col-md-9 modal-summary">
                         <h4>Project Description</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+                        <p>The Freedom of Information App is the third and final group 
+                            project that my team and I built for UT Austin's Coding 
+                            Bootcamp. It incorporates the full MERN Stack and was built 
+                            using Bootstrap as a framework. The idea behind it was that 
+                            we wanted to create an easy way for people to look up their 
+                            congresspeople and learn basic information about them without 
+                            the filter and spin that typically accompanies political 
+                            information.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Duis at interdum mi, vel consequat diam. Quisque sagittis 
-                            varius feugiat. Mauris imperdiet dui in ante posuere 
-                            condimentum. Suspendisse arcu mi, tincidunt in posuere ut, 
-                            eleifend at nulla. Aliquam vulputate pretium dignissim. 
-                            Donec nec nisl tempor, efficitur nisl id, imperdiet purus. 
-                            Quisque aliquam est rhoncus augue viverra, ac blandit eros 
-                            volutpat. Morbi mollis volutpat fringilla. Curabitur at 
-                            risus scelerisque, convallis nisi et, gravida erat. Nulla 
-                            ac condimentum mauris. Phasellus eget fermentum ex, eu 
-                            convallis nibh.
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+
+                        <p>The application functions by taking the addresss that the user 
+                            inputs and running it through the Google Civics API to generate 
+                            three cards and display them to the user - one for the two senators 
+                            aligned to that state, and another for the representative in the 
+                            House for that district. Each card has basic information about the 
+                            congressperson such as their full title, phone number, social media 
+                            links, and a link to view their full profile. 
                         </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
+                        
+                        <p>When the "View Profile" button is clicked, the user is then brought to 
+                            a profile page built for each congressperson that takes their name and 
+                            runs it through the Google News API to bring up current news stories, 
+                            the ProPublica Congress API to show bills on which they are a sponsor / 
+                            co-sponsor. Additionally, a Member ID number is generated from their name 
+                            and fed into the ProPublica Campaign Finance API, which then renders a pie 
+                            chart via Chart.js that displays their PAC contributions vs. individual 
+                            contributions on their most recent campaign. A MongoDB component also renders 
+                            that allows users to leave either a like or a dislike on the politician's 
+                            page that is displayed to all other users.
+                        </p>
+
+                        <div class="text-center">
+                            <img class="modal-image img-fluid" src="https://via.placeholder.com/300">
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,14 @@
 /*-------------------------------------  Universal Elements */
 
+/* Nav Bar */
+
+.navbar-brand {
+    padding-left: 1%;
+}
+
+.collapse {
+    padding-right: 1%;
+}
 /* Container */
 
 .container {
@@ -23,7 +32,6 @@ footer {
     margin-top: 20px;
 }
 
-
 /*------------------------------------- Landing Page  */
 
 .container-landing {
@@ -36,13 +44,12 @@ footer {
 }
 
 .inner-about {
-    padding: 70px 0px;
+    padding: 30px;
 }
 
-.inner-about p {
-
+.about-row {
+    padding: 55px 0px;
 }
-
 
 /*------------------------------------- Portfolio Page */
 
@@ -67,10 +74,6 @@ footer {
     width: 200px;
     background-color: rgba(255, 255, 255, 0.85);
     visibility: hidden;
-}
-
-.project-tags {
-    padding: 30px 10px 0px 10px;
 }
 
 /* Project Backgrounds */
@@ -186,15 +189,18 @@ footer {
   }
 
   .modal-summary p {
-      padding: 20px;
+      padding: 30px;
       margin: 0;
   }
 
 .app-links {
       text-align: center;
-      padding-bottom: 20px;
-      padding-top: 10px;
-      border-bottom: 1px solid grey;
+      padding-bottom: 25px;
+      padding-top: 15px;
+  }
+
+  ul {
+      padding: 20px 40px;
   }
 /*-------------------------------------  Contact Page */
 

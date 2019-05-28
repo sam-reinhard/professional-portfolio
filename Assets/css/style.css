@@ -200,14 +200,9 @@ body {
 
   .modal-image {
     margin: 20px;
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 90%;
     border: 2px solid #226597;
-  }
-
-  #crystal-example {
-      height: auto;
-      width: 400px;
   }
 
   .modal h4 {

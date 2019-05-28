@@ -82,7 +82,7 @@ body {
 }
 
 .project-title {
-    padding: 20px;
+    padding: 100px 20px 0px 20px;
     font-family: 'Barlow', sans-serif;
     font-size: 26px;
     /* border: 3px solid black; */
@@ -91,7 +91,7 @@ body {
 .project-content {
     height: 250px; 
     width: 250px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(135, 192, 205, 0.849);
     visibility: hidden;
 }
 
@@ -199,7 +199,15 @@ body {
   }
 
   .modal-image {
-    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    width: auto;
+    border: 2px solid #226597;
+  }
+
+  #crystal-example {
+      height: auto;
+      width: 400px;
   }
 
   .modal h4 {

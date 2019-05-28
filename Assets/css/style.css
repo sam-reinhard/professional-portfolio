@@ -5,10 +5,6 @@ body {
 }
 /* Nav Bar */
 
-.nav {
-    
-}
-
 .navbar {
     background-color: #113F67;
     border-bottom: 10px solid #87C0CD;
@@ -34,6 +30,10 @@ body {
     margin-right: 5%;
 }
 
+.active {
+    color: #87C0CD;
+}
+
 /* Container */
 
 .container {
@@ -51,7 +51,10 @@ body {
 .inner-landing {
     padding: 260px 0px;
     font-family: 'Barlow', sans-serif;
+    /* color: #F3F9FB; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background: url(../Images/landing-image.JPG);
+    background-size: cover; */
 }
 
 .inner-about {
@@ -229,6 +232,8 @@ body {
     background-color: #226597;
     color: #F3F9FB;
     border: 1px solid #226597;
+    margin: 10px 5px;
+    width: 186px;
   }
 
   .btn:hover {

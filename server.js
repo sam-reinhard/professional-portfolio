@@ -26,7 +26,7 @@ app.get("/portfolio", function(req, res) {
 });
 
 app.get("/contact", function(req, res) {
-    res.sendFile(path.join(__dirname, "./assets/contact.html"));
+    res.sendFile(path.join(__dirname, "/Assets/contact.html"));
 });
 
 // Starts the server

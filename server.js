@@ -22,7 +22,7 @@ app.get("/about", function(req, res){
 });
   
 app.get("/portfolio", function(req, res) {
-    res.sendFile(path.join(__dirname, "Assets/portfolio.html"));
+    res.sendFile(path.join(__dirname, "/Assets/portfolio.html"));
 });
 
 app.get("/contact", function(req, res) {

@@ -9,7 +9,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 // Serve static content
-app.use(express.static("Assets"));
+app.use(express.static("./Assets"));
 
 // Routes
 // =============================================================
@@ -18,7 +18,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/about", function(req, res){
-    res.sendFile(path.join(__dirname, "./about.html"));
+    res.sendFile(path.join(__dirname, "about.html"));
 });
   
 app.get("/portfolio", function(req, res) {

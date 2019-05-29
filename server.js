@@ -16,6 +16,10 @@ app.use(express.static("Assets"));
 app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "index.html"));
 });
+
+app.get("/about", function(req, res){
+    res.sendFile(path.join(__dirname, "./assets/about.html"));
+});
   
 app.get("/portfolio", function(req, res) {
     res.sendFile(path.join(__dirname, "./assets/portfolio.html"));

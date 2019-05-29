@@ -143,11 +143,11 @@ body {
 }
 
 .giftastic {
-    background: url(../images/hockey_200x200.jpeg);
+    background: url(../Images/hockey_200x200.jpeg);
 }
 
 .crystal {
-    background: url(../images/crystal_200x200.jpeg)
+    background: url(../Images/crystal_200x200.jpeg)
 }
 
 .trivia {
@@ -155,7 +155,7 @@ body {
 }
 
 .psychic {
-    background: url(../images/psychic_200x200.jpeg)
+    background: url(../Images/psychic_200x200.jpeg)
 }
 
 /* Project Hover Effects */

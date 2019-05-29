@@ -49,7 +49,9 @@ body {
 }
 
 .inner-landing {
-    padding: 260px 0px;
+    padding: 200px 0px;
+    width: 80%;
+    margin: auto;
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
     color: #F3F9FB;
@@ -63,12 +65,14 @@ body {
 }
 
 .inner-about {
-    padding: 33px;
+    padding: 30px;
     font-family: 'Raleway', sans-serif; 
 }
 
-.about-row {
-    padding: 55px 0px;
+#profile-img {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
 }
 
 /*------------------------------------- Portfolio Page */

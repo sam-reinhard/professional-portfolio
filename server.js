@@ -18,11 +18,11 @@ app.get("/", function(req, res) {
 });
 
 app.get("/about", function(req, res){
-    res.sendFile(path.join(__dirname, "about"));
+    res.sendFile(path.join(__dirname, "about.html"));
 });
   
 app.get("/portfolio", function(req, res) {
-    res.sendFile(path.join(__dirname, "./assets/portfolio.html"));
+    res.sendFile(path.join(__dirname, "Assets/portfolio.html"));
 });
 
 app.get("/contact", function(req, res) {

@@ -18,7 +18,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/about", function(req, res){
-    res.sendFile(path.join(__dirname, "about.html"));
+    res.sendFile(path.join(__dirname, "../Assets/about.html"));
 });
   
 app.get("/portfolio", function(req, res) {

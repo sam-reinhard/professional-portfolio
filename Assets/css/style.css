@@ -249,8 +249,7 @@ body {
       text-align: center;
       padding-bottom: 25px;
       padding-top: 15px;
-      border-bottom: 2px solid #87C0CD;
-      font-family: 'Raleway', sans-serif;    
+      border-bottom: 2px solid #87C0CD;  
   }
 
   .btn {
@@ -259,6 +258,7 @@ body {
     border: 1px solid #226597;
     margin: 10px 5px;
     width: 186px;
+    font-family: 'Raleway', sans-serif; 
   }
 
   .btn:hover {
@@ -269,6 +269,11 @@ body {
   ul {
       padding: 30px 40px;
       font-family: 'Raleway', sans-serif;
+  }
+
+  .close-btn {
+      width: 186px;
+      margin: 20px;
   }
 /*-------------------------------------  Contact Page */
 

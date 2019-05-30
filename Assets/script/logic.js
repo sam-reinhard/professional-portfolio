@@ -6,10 +6,11 @@ $(document).ready(function(){
 
         // Closing the modal options
 
-        // $(window).on("click", function(e){
-        //     e.preventDefault();
+        // $(window).on("click", function(event){
+        //     event.preventDefault();
         //     console.log("clicked on the window");
-        //     console.log(e.target);
+        //     console.log(event.target);
+        //     $(".modal").css("z-index", -1).hide();
     
         // });
 
@@ -18,4 +19,9 @@ $(document).ready(function(){
             $("#" + id).css("z-index", -1).hide();
         });
     });
+
+    $(".close-btn").on("click", function(e){
+        e.preventDefault();
+        $(".modal").css("z-index", -1).hide();
+    })
 });

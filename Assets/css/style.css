@@ -286,6 +286,10 @@ body {
       .modal-summary {
           border-left: none;
       }
+
+      .modal-content {
+          margin: 80px auto;
+      }
   }
 /*-------------------------------------  Contact Page */
 

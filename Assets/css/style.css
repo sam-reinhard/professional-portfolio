@@ -111,51 +111,63 @@ body {
 /* Project Backgrounds */
 
 .foi-app {
-    background: url(../Images/foi_200x200.jpg);
+    background: url(../Images/Government.png);
+    background-size: cover;
 }
 
 .straytx {
-    background: url(../Images/straytx_200x200.jpg);
+    background: url(../Images/Dog.png);
+    background-size: cover;
 }
 
 .skyq {
-    background: url(../Images/skyq_200x200.jpeg);
+    background: url(../Images/SkyQ.png);
+    background-size: cover;
 }
 
 .react-game {
-    background: url(../Images/react_200x200.png);
+    background: url(../Images/React.png);
+    background-size: cover;
 }
 
 .e-commerce {
-    background: url(../Images/E-commerce_200x200.jpg);
+    background: url(../Images/ShoppingCart.png);
+    background-size: cover;
 }
 
 .friend-finder {
-    background: url(../Images/friends_200x200.jpg);
+    background: url(../Images/Group.png);
+    background-size: cover;
 }
 
 .liri {
-    background: url(../Images/liri_200x200.jpeg);
+    background: url(../Images/Headphones.png);
+    background-size: cover;
 }
 
 .restaurant {
-    background: url(../Images/restaurant_200x200.jpeg);
+    background: url(../Images/Plate.png);
+    background-size: cover;
 }
 
 .giftastic {
-    background: url(../Images/hockey_200x200.jpeg);
+    background: url(../Images/Hockey.png);
+    background-size: cover;
 }
 
 .crystal {
-    background: url(../Images/crystal_200x200.jpeg)
+    background: url(../Images/Crystal.png);
+    background-size: cover;
 }
 
 .trivia {
-    background: url(../Images/nationalpark_200x200.jpeg);
+    background: url(../Images/Mountains.png);
+    background-size: cover;
 }
 
 .psychic {
-    background: url(../Images/psychic_200x200.jpeg)
+    background: url(../Images/Psychic.png);
+    background-size: cover;
 }
 
 /* Project Hover Effects */
@@ -205,6 +217,8 @@ body {
   /* Modal Elements */
   .modal-title {
       text-align: center;
+      color: #113F67;
+      font-family: 'Barlow', sans-serif;
   }
 
   .modal-summary {
@@ -221,6 +235,7 @@ body {
   .modal h4 {
       padding-top: 20px;
       text-align: center;
+      color: #113F67;
       font-family: 'Barlow', sans-serif;
   }
 

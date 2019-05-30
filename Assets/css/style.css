@@ -276,21 +276,7 @@ body {
       margin: 20px;
   }
 
-  @media only screen and (max-width: 768px) {
-      .modal-content {
-          width: 85%;
-      }
-  }
-
-  @media only screen and (max-width: 415px){
-      .modal-summary {
-          border-left: none;
-      }
-
-      .modal-content {
-          margin: 80px auto;
-      }
-  }
+  
 /*-------------------------------------  Contact Page */
 
 .contact-row {
@@ -307,3 +293,24 @@ body {
     margin: 0 auto;
 }
 
+/*-------------------------------------  Media Queries */
+
+@media only screen and (max-width: 768px) {
+      .modal-content {
+          width: 85%;
+      }
+
+      .contact-row {
+          padding: 0px;
+      }
+  }
+
+  @media only screen and (max-width: 415px){
+      .modal-summary {
+          border-left: none;
+      }
+
+      .modal-content {
+          margin: 80px auto;
+      }
+  }

@@ -275,6 +275,18 @@ body {
       width: 186px;
       margin: 20px;
   }
+
+  @media only screen and (max-width: 768px) {
+      .modal-content {
+          width: 85%;
+      }
+  }
+
+  @media only screen and (max-width: 415px){
+      .modal-summary {
+          border-left: none;
+      }
+  }
 /*-------------------------------------  Contact Page */
 
 .contact-row {

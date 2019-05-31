@@ -322,4 +322,8 @@ body {
       .inner-about {
           padding: 20px 30px;
       }
+
+      .close-btn {
+          visibility: hidden;
+      }
   }

@@ -44,9 +44,9 @@ body {
 
 /*------------------------------------- Landing Page  */
 
-.container-landing {
+/* .container-landing {
     scroll-behavior: smooth;
-}
+} */
 
 .inner-landing {
     padding: 200px 0px;
@@ -278,6 +278,7 @@ body {
   .close-btn {
       width: 186px;
       margin: 20px;
+      justify-content: end;
   }
 
   

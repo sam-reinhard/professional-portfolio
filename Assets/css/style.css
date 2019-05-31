@@ -64,12 +64,16 @@ body {
     background-size: cover;
 }
 
+
+/*------------------------------------- About Page */
+
 .inner-about {
-    padding: 30px;
+    padding: 20px 10px;
     font-family: 'Raleway', sans-serif; 
 }
 
 #profile-img {
+    width: 400px;
     max-width: 100%;
     min-width: 200px;
     height: auto;
@@ -312,5 +316,9 @@ body {
 
       .modal-content {
           margin: 80px auto;
+      }
+
+      .inner-about {
+          padding: 20px 30px;
       }
   }
